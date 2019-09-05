@@ -1,0 +1,10 @@
+num1 = int(input())
+num2 = int(input())
+num3 = num1 * (num2 % 10)
+num4 = int(num1 * (num2 % 100 - num2 % 10)/10)
+num5 = num1*int(num2/100)
+result = num1 * num2
+print(num3)
+print(num4)
+print(num5)
+print(result)
