@@ -15,10 +15,8 @@ while True:
         continue
     else:
         break
-if sum1==0:
-    print(-1)
-else:
-    print(sum1)
-    print(big[0])
+
+print(sum1)
+print(big[0])
 
     
